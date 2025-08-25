@@ -22,19 +22,17 @@
   </p>
 </div>
 
-## Install forked (fixed missing types export)
+## Quick Start
+
+### Install forked (fixed missing types export)
 
 ```
 $ npm install jagodawojcik/react-splide
 ```
 
-## Quick Start
+~~Get the latest version from NPM:~~
 
-Get the latest version from NPM:
-
-```
-$ npm install @splidejs/react-splide
-```
+~~npm install @splidejs/react-splide~~
 
 Import CSS and components:
 
