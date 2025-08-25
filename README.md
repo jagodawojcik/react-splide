@@ -22,8 +22,16 @@
   </p>
 </div>
 
+## Install forked (fixed missing types export)
+
+```
+$ npm install jagodawojcik/react-splide
+```
+
 ## Quick Start
+
 Get the latest version from NPM:
+
 ```
 $ npm install @splidejs/react-splide
 ```
@@ -31,17 +39,17 @@ $ npm install @splidejs/react-splide
 Import CSS and components:
 
 ```jsx
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
 export function Slider() {
   return (
-    <Splide options={ { rewind: true } } aria-label="React Splide Example">
+    <Splide options={{ rewind: true }} aria-label="React Splide Example">
       <SplideSlide>
-        <img src="image1.jpg" alt="Image 1"/>
+        <img src="image1.jpg" alt="Image 1" />
       </SplideSlide>
       <SplideSlide>
-        <img src="image2.jpg" alt="Image 2"/>
+        <img src="image2.jpg" alt="Image 2" />
       </SplideSlide>
     </Splide>
   );
@@ -50,13 +58,13 @@ export function Slider() {
 
 Visit [here](https://splidejs.com/integration/react-splide/) for more details.
 
-
 ## Support Splide
 
 Please support the project if you like it!
+
 - [GitHub Sponsors](https://github.com/sponsors/NaotoshiFujita)
 
-
 ## License
+
 React Splide and Splide are released under the MIT license.
 © 2021 Naotoshi Fujita
